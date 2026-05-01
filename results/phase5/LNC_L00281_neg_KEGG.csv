@@ -1,0 +1,2 @@
+"category","subcategory","ID","Description","GeneRatio","BgRatio","RichFactor","FoldEnrichment","zScore","pvalue","p.adjust","qvalue","geneID","Count"
+"Metabolism","Glycan biosynthesis and metabolism","hsa00532","Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate","3/34","21/9378",0.142857142857143,39.4033613445378,10.6271197148262,5.53866593868102e-05,0.0059817592137755,0.00577187292557285,"113189/54480/79586",3

@@ -1,0 +1,30 @@
+======================================================================
+PHASE 3 — NOVEL TRANSCRIPT CLASSIFICATION: SUMMARY
+======================================================================
+
+────────────────────────────────────────
+lncRNA LOCI: 336
+────────────────────────────────────────
+  Confidence: HIGH=43, MEDIUM=61, LOW=232
+  Database status: known=307, novel=29
+  Genomic context:
+    intergenic: 208
+    antisense: 102
+    intronic_sense: 26
+  Low normal brain expression (nearest gene < 1 TPM): 76
+
+  ★ PRIORITY lncRNA (novel + HIGH + low brain expr): 3
+
+────────────────────────────────────────
+circRNA JUNCTIONS: 393
+────────────────────────────────────────
+  Confidence: HIGH=2, MEDIUM=376, LOW=15
+  Database status:
+    novel: 388
+    known: 5
+  Host gene: genic=254, intergenic=139
+  Low normal brain expression (host gene < 1 TPM): 15
+
+  ★ PRIORITY circRNA (novel + HIGH + low brain expr): 0
+
+======================================================================

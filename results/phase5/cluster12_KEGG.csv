@@ -1,0 +1,4 @@
+"category","subcategory","ID","Description","GeneRatio","BgRatio","RichFactor","FoldEnrichment","zScore","pvalue","p.adjust","qvalue","geneID","Count"
+"Genetic Information Processing","Information processing in viruses","hsa03250","Viral life cycle - HIV-1","1/2","73/9376",0.0136986301369863,64.2191780821918,7.92021418432805,0.0155118771331054,0.0315110580204777,NA,"653505",1
+"Human Diseases","Cancer: overview","hsa05231","Choline metabolism in cancer","1/2","99/9376",0.0101010101010101,47.3535353535354,6.77227903035127,0.0210073720136518,0.0315110580204777,NA,"126969",1
+"Cellular Processes","Cell growth and death","hsa04217","Necroptosis","1/2","168/9376",0.00595238095238095,27.9047619047619,5.13971810399176,0.0355169965870307,0.0355169965870307,NA,"653505",1

@@ -1,0 +1,4 @@
+locus_id	gene_name	n_correlated_pairs	n_positive	n_negative	top_GO_BP	top_KEGG_positive	top_KEGG_negative	interpretation
+LNC_L00295	POLR2J2	88	50	38	None significant	None	PPAR signaling (p.adj=0.0138)	GBM-high DE trend; suppression of PPAR/NAD metabolism when highly expressed
+LNC_L00160	SMIM47	124	91	33	None significant	None	None	No pathway enrichment; biological interest from Phase 4 structural switching
+LNC_L00281	FKBP6	100	23	77	Synaptic vesicle exocytosis (pos, p.adj=0.0036)	None	Glycosaminoglycan biosynthesis chondroitin sulfate (p.adj=0.0060)	Synaptic vesicle co-expression; ECM suppression; consistent with neuronally-integrated tumour state

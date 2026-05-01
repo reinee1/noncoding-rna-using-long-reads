@@ -1,0 +1,36 @@
+============================================================
+PHASE 5 COMPLETE SUMMARY
+============================================================
+
+COMPONENT 1 — Differential Expression (DESeq2)
+  Novel loci tested: 28
+  Significant (FDR<0.05): 0
+  Top nominal hit: LNC_L00295/POLR2J2 (p=0.030, log2FC=1.28, GBM-high)
+  Consistent in sensitivity analysis (n=26): p=0.017
+  Limitation: low counts, underpowered at n=24
+
+COMPONENT 2 — Guilt-by-Association (Spearman)
+  Novel loci with correlated genes (|r|>=0.5, p<0.05): 28/28
+  FDR<0.05 pairs: 69 (dominated by LNC_L00245, excluded as artefact)
+  POLR2J2: PPAR signalling suppression (KEGG, neg. corr.)
+  SMIM47:  No pathway enrichment — structural interest from Phase 4
+  FKBP6:   Synaptic vesicle exocytosis (GO BP, pos. corr.)
+           Chondroitin sulphate ECM suppression (KEGG, neg. corr.)
+
+COMPONENT 3 — ceRNA Network
+  circRNA sponge candidates: 4
+  CIRC_J00115 (FAM174B, GBM): MAPK/Ras/Hedgehog signalling targets
+  CIRC_J00034 (ENAH, LGG):   PI3K/proteoglycan cancer signalling
+  CIRC_J00197 (NMD3, GBM):   No enrichment (honest null)
+  CIRC_J00153 (intergenic):  Insufficient targets (2 genes)
+  lncRNA-circRNA co-localisation: not detected
+
+PRIORITISATION — Top 5 Novel lncRNA Candidates
+  1. LNC_L00295/POLR2J2  (score=1.000) — GBM-high, structural switcher
+  2. LNC_L00284/RCC1L    (score=0.709) — most stable structure
+  3. LNC_L00160/SMIM47   (score=0.666) — structural switcher, broad co-expr
+  4. LNC_L00064/SLC6A12  (score=0.617) — HIGH confidence, 95 correlations
+  5. LNC_L00022/SEC22B   (score=0.532) — DE signal, LOW confidence flag
+
+Phase 6: Survival analysis on top candidates using TCGA-GBM
+============================================================

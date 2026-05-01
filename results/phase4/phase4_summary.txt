@@ -1,0 +1,31 @@
+PHASE 4 SUMMARY
+========================
+
+lncRNA STRUCTURE
+Number folded: 929
+Median raw MFE: -244.100
+Median MFE per nt: -0.31093
+Most negative MFE per nt: -0.52494
+
+circRNA STRUCTURE
+Number folded: 393
+Median raw MFE: -135.200
+Median MFE per nt: -0.23268
+Most negative MFE per nt: -1.00943
+
+miRNA BINDING
+Relaxed parsed hits: 834902
+Strict filtered hits: 93873
+
+SPONGE CANDIDATES
+Candidates (>=3 sites): 8970
+Strong candidates (>=5 sites): 587
+
+HIGH-CONFIDENCE FINAL CANDIDATES
+Count: 4
+
+                junction_id  sequence_length_struct  mfe_per_nt       top_miRNA  top_miRNA_n_sites
+chr1:225652049-225845534(-)                     897   -0.324192 hsa-miR-6751-5p                5.0
+ chr15:92683389-92898092(-)                    1065   -0.318592 hsa-miR-6756-5p                5.0
+chr3:161231894-161429600(+)                     580   -0.317586    hsa-miR-3185                5.0
+ chr19:41998376-42195150(.)                     749   -0.528171    hsa-miR-4767                5.0
